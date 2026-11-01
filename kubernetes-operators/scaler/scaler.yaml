@@ -1,0 +1,8 @@
+apiVersion: ops.one2n.in/v1alpha1
+kind: Scaler
+metadata:
+  name: web-scaler
+  namespace: default
+spec:
+  deploymentName: web
+  replicas: 5

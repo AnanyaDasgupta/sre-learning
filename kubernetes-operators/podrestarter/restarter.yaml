@@ -1,0 +1,8 @@
+apiVersion: ops.one2n.in/v1alpha1
+kind: PodRestarter
+metadata:
+  name: web-restarter
+  namespace: default
+spec:
+  deploymentName: web
+  interval: 2m
